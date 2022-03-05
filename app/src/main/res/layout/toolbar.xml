@@ -2,6 +2,8 @@
 <com.google.android.material.appbar.MaterialToolbar xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
-    android:background="@drawable/drawer_color">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/drawer_color"
+    app:title="App Title">
 
 </com.google.android.material.appbar.MaterialToolbar>
