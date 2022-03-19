@@ -14,8 +14,19 @@
 
         <item
             android:id="@+id/logout"
-            android:title="Logout"
-            />
+            android:title="Account">
+
+            <menu>
+                <item
+                    android:id="@+id/General"
+                    android:title="General" />
+            </menu>
+
+        </item>
+
+
+
+
     </group>
 
 </menu>

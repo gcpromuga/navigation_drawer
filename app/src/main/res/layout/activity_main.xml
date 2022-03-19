@@ -15,14 +15,6 @@
         android:id="@+id/app_bar_home_navigation_drawer"
         layout="@layout/appbar_home_drawer" />
 
-    <com.google.android.material.navigation.NavigationView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:id="@+id/navigation"
-        app:headerLayout="@layout/headerfile"
-        app:menu="@menu/top_bar_menu"
-        android:layout_gravity="start" />
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
@@ -32,5 +24,14 @@
             layout="@layout/toolbar" />
 
     </ScrollView>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navigation"
+        app:headerLayout="@layout/headerfile"
+        app:menu="@menu/top_bar_menu"
+        android:layout_gravity="start" />
+
 
 </androidx.drawerlayout.widget.DrawerLayout>
